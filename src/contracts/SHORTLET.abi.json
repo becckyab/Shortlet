@@ -1,0 +1,146 @@
+[ 
+ { 
+  "inputs": [ 
+   { 
+    "internalType": "string", 
+    "name": "_typeOfApartment", 
+    "type": "string" 
+   }, 
+   { 
+    "internalType": "string", 
+    "name": "_image", 
+    "type": "string" 
+   }, 
+   { 
+    "internalType": "string", 
+    "name": "_location", 
+    "type": "string" 
+   }, 
+   { 
+    "internalType": "string", 
+    "name": "_wifi", 
+    "type": "string" 
+   }, 
+   { 
+    "internalType": "uint256", 
+    "name": "_numberOfBedroom", 
+    "type": "uint256" 
+   }, 
+   { 
+    "internalType": "uint256", 
+    "name": "_amount", 
+    "type": "uint256" 
+   } 
+  ], 
+  "name": "addShortlet", 
+  "outputs": [], 
+  "stateMutability": "nonpayable", 
+  "type": "function" 
+ }, 
+ { 
+  "inputs": [ 
+   { 
+    "internalType": "uint256", 
+    "name": "_index", 
+    "type": "uint256" 
+   } 
+  ], 
+  "name": "buyShortlet", 
+  "outputs": [], 
+  "stateMutability": "payable", 
+  "type": "function" 
+ }, 
+ { 
+  "inputs": [ 
+   { 
+    "internalType": "uint256", 
+    "name": "_index", 
+    "type": "uint256" 
+   } 
+  ], 
+  "name": "getShortlet", 
+  "outputs": [ 
+   { 
+    "internalType": "address payable", 
+    "name": "", 
+    "type": "address" 
+   }, 
+   { 
+    "internalType": "string", 
+    "name": "", 
+    "type": "string" 
+   }, 
+   { 
+    "internalType": "string", 
+    "name": "", 
+    "type": "string" 
+   }, 
+   { 
+    "internalType": "string", 
+    "name": "", 
+    "type": "string" 
+   }, 
+   { 
+    "internalType": "string", 
+    "name": "", 
+    "type": "string" 
+   }, 
+   { 
+    "internalType": "uint256", 
+    "name": "", 
+    "type": "uint256" 
+   }, 
+   { 
+    "internalType": "uint256", 
+    "name": "", 
+    "type": "uint256" 
+   }, 
+   { 
+    "internalType": "uint256", 
+    "name": "", 
+    "type": "uint256" 
+   } 
+  ], 
+  "stateMutability": "view", 
+  "type": "function" 
+ }, 
+ { 
+  "inputs": [], 
+  "name": "getShortletLength", 
+  "outputs": [ 
+   { 
+    "internalType": "uint256", 
+    "name": "", 
+    "type": "uint256" 
+   } 
+  ], 
+  "stateMutability": "view", 
+  "type": "function" 
+ }, 
+ { 
+  "inputs": [ 
+   { 
+    "internalType": "uint256", 
+    "name": "_index", 
+    "type": "uint256" 
+   } 
+  ], 
+  "name": "likeShortlet", 
+  "outputs": [], 
+  "stateMutability": "nonpayable", 
+  "type": "function" 
+ }, 
+ { 
+  "inputs": [ 
+   { 
+    "internalType": "uint256", 
+    "name": "_index", 
+    "type": "uint256" 
+   } 
+  ], 
+  "name": "rateShortlet", 
+  "outputs": [], 
+  "stateMutability": "nonpayable", 
+  "type": "function" 
+ } 
+]

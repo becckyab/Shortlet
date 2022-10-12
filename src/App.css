@@ -1,0 +1,10 @@
+.App {
+  box-sizing: border-box;
+  background-color: #000;
+  color: #ddd;
+}
+
+.card {
+  color: #000;
+  background-color: #ddd;
+}
